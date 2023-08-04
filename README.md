@@ -92,8 +92,8 @@ A comprehensive collection of top Data Structures and Algorithms (DSA) interview
 ### Built With
 
 * [![Cpp][C++]][C++-url]
-* [![Codeforces][Codeforces]][Codeforces-url]
 * [![LeetCode][LeetCode]][Leetcode-url]
+* [![Codeforces][Codeforces]][Codeforces-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,46 +115,57 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+**Usage Guide: Running C++ Files**
+
+Welcome to the repository containing various C++ files. This guide will walk you through the steps to run these C++ programs on your local machine.
+
+**Prerequisites:**
+1. Ensure you have a C++ compiler installed on your system. We recommend using `g++` for Unix-based systems and `MinGW` for Windows users.
+2. Have a code editor or IDE installed, such as Visual Studio Code, Sublime Text, or Code::Blocks.
+
+**Instructions:**
+1. Clone or download this repository to your local machine using the "Clone" or "Download" button on GitHub.
+2. Navigate to the root directory of the downloaded repository using the terminal (for Unix-based systems) or command prompt (for Windows).
+3. Locate the C++ file you want to run within the repository's directory structure.
+
+**Running the C++ Program:**
+4. Open your terminal or command prompt and navigate to the directory where the C++ file is located.
+5. Use the following command to compile the C++ file and generate an executable:
+
+For Unix-based systems (using g++):
+```
+g++ -o output_filename input_filename.cpp
+```
+
+For Windows (using MinGW):
+```
+g++ -o output_filename.exe input_filename.cpp
+```
+
+Replace `output_filename` with the desired name for the executable and `input_filename.cpp` with the name of the C++ file you want to run.
+
+**Executing the Program:**
+6. After a successful compilation, run the executable by typing the following command:
+
+For Unix-based systems:
+```
+./output_filename
+```
+
+For Windows:
+```
+output_filename.exe
+```
+
+The C++ program will now execute, and you'll see the output in the terminal or command prompt.
+
+**Important Note:**
+- Some C++ files may have specific input requirements. Ensure you provide the necessary inputs as prompted while running the program.
+
+Now you're all set to explore and run the C++ files in this repository. Happy coding!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -167,9 +178,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/importantquestion`)
+3. Commit your Changes (`git commit -m 'Add some importantquestion'`)
+4. Push to the Branch (`git push origin feature/importantquestion`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -188,9 +199,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Gaurav Singh - [@knowgaurav01](https://twitter.com/knowgaurav01) - hello@sgaurav.me
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/knowgaurav/interview-prep](https://github.com/github_username/interview-prep)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,9 +210,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Striver A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+* [Leetcode top 150 questions](https://leetcode.com/studyplan/top-interview-150/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,18 +219,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/knowgaurav/interview-prep.svg?style=for-the-badge
+[contributors-url]: https://github.com/knowgaurav/interview-prep/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/knowgaurav/interview-prep.svg?style=for-the-badge
+[forks-url]: https://github.com/knowgaurav/interview-prep/network/members
+[stars-shield]: https://img.shields.io/github/stars/knowgaurav/interview-prep.svg?style=for-the-badge
+[stars-url]: https://github.com/knowgaurav/interview-prep/stargazers
+[issues-shield]: https://img.shields.io/github/issues/knowgaurav/interview-prep.svg?style=for-the-badge
+[issues-url]: https://github.com/knowgaurav/interview-prep/issues
+[license-shield]: https://img.shields.io/github/license/knowgaurav/interview-prep.svg?style=for-the-badge
+[license-url]: https://github.com/knowgaurav/interview-prep/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://in.linkedin.com/in/knowgaurav
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
@@ -241,6 +251,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [C++]: https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white
 [C++-url]: https://isocpp.org/
 [Codeforces]: https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white
-[Codeforces-url]: https://codeforces.org
+[Codeforces-url]: https://codeforces.com/
 [LeetCode]: https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06
 [LeetCode-url]: https://leetcode.com
