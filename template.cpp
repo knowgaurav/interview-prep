@@ -80,7 +80,6 @@ const int MAXN = 1e6 + 1;
 #define B begin()
 #define E end()
 #define pb push_back
-#define all(v) v.B, v.E
 #define sz(v) (int)((v).size())
 #define rep(i, s, f) for (i = s; i < f; i++)
 #define print(v) for(auto &z:v){cout<<z<<' ';cout<<'\n'}
